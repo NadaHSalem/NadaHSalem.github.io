@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-style{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-top: 20px;
+  
+}
+
+.nav-font{
+  font-family: "MatSaleh";
+  font-weight: normal;
+  font-size: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-padding{
+  margin: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.web-padding{
+  margin: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.custom-tooltip{
+  color: blue;
+}
+
+.h1-style{
+  padding-top: 40px;
+  font-family: "MatSaleh";
+  font-weight: normal;
+  font-size: 150px;
+  color: aliceblue;
+  line-height: 0.4;
+}
+
+.h2-style{
+  font-family: "MatSaleh";
+  font-weight: normal;
+  font-size: 80px;
+  color: aliceblue;
+}
+
+.body-style{
+  font-family: "MatSaleh";
+  font-weight: normal;
+  font-size: 20px;
+  color: rgb(240, 241, 255);
+}
+
+.home-body-style{
+  font-family: "MatSaleh";
+  font-size: 30px;
+  font-weight: normal;
+  color: rgb(146, 165, 250);
+}
+
+.skills-style{
+  font-family: "MatSaleh";
+  font-weight: normal;
+  font-size: 20px;
+  color: rgb(206, 159, 241);
+}
+
+.icon-text-style{
+  font-family: "MatSaleh";
+  font-weight: normal;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.software-style{
+  font-family: "MatSaleh";
+  font-weight: normal;
+  font-size: 20px;
+  color: rgb(220, 245, 167);
+}
+
+.icon-style{
+  width: auto;
+  height: 100px;
+  margin: 2rem;
+}
+
+.small-icon-style{
+  width: auto;
+  height: 20px;
+  margin: 0.2rem;
+}
+
+.invert{
+  filter: invert(100);
+}
+
+.project-image{
+  width: auto;
+  height: 500px;
+  margin: 2rem;
 }
