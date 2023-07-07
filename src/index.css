@@ -7,6 +7,15 @@
    color: "white";
  }
 
+ @font-face {
+  font-family: Dosis;
+  src: local("Dosis"),
+   url("./fonts/Dosis-Medium.ttf") format("truetype");
+   font-weight: normal;
+   font-size: 20px;
+   color: "white";
+ }
+
  .custom-scrollbars__content {
   overflow: auto;
   scrollbar-width: none;
