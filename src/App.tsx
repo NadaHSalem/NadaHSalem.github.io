@@ -26,9 +26,9 @@ function App() {
         <a href="https://github.com/NadaHSalem" target="_blank">
           <img src={github} alt="GitHhub Icon" className="icon-style invert" />
         </a>
-        <a href="https://github.com/NadaHSalem" target="_blank">
+        {/* <a href="https://github.com/NadaHSalem" target="_blank">
           <img src={gmail} alt="Gmail Icon" className="icon-style" />
-        </a>
+        </a> */}
       </div>
     </div>
   );

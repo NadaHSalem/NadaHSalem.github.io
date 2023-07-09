@@ -1,3 +1,15 @@
+a.ext:link, a.ext:visited {
+  color: rgb(67, 191, 200);
+  text-decoration: none;
+
+}
+a.ext:hover {
+  color: rgb(181, 118, 236);
+}
+a.ext:active {
+  text-decoration: underline;
+}
+
 .nav-style{
   display: flex;
   align-items: center;
@@ -42,18 +54,18 @@
 }
 
 .body-style{
-  font-family: "Dosis";
+  font-family: "Montserrat";
   font-weight: normal;
   font-size: 20px;
-  color: rgb(220, 191, 227);
+  color: rgb(206, 218, 254);
   padding-bottom: 3rem;
 }
 
 .home-body-style{
-  font-family: "Dosis";
+  font-family: "Montserrat";
   font-size: 30px;
   font-weight: normal;
-  color: rgb(220, 191, 227);
+  color: rgb(206, 218, 254);
 }
 
 .icon-text-style{

@@ -1,7 +1,5 @@
-import ReactPlayer from "react-player";
-
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import { Container } from "react-bootstrap";
 import blender from "../assets/blender.png";
 import milkshake from "../assets/donut.png";
 import campfire from "../assets/fireanim.gif";
@@ -73,28 +71,21 @@ const Page3D = () => {
                 Created a frame-by-frame animation using a tablet and digital
                 art software.
               </p>
-              <ReactPlayer
-                playing
-                url="campingtrip.mp4"
-                height="auto"
-                width="500px"
-                controls={true}
-                light={
-                  <img src={lightsrc} alt="Thumbnail" className="thumbnail" />
-                }
-                fileConfig={{
-                  attributes: {
-                    style: {
-                      display: "block",
-                      width: "auto",
-                      height: "auto",
-                    },
-                  },
-                }}
-              />
+              <Container>
+                <div className="ratio ratio-4x3">
+                  <iframe
+                    src="https://www.youtube.com/embed/KqAKDfwnQjc"
+                    title="Camping Trip"
+                    allowFullScreen
+                  >
+                    {" "}
+                  </iframe>
+                </div>
+              </Container>
             </div>
           </div>
-          <div className="col-sm">
+
+          {/* <div className="col-sm">
             <div className="p-3">
               <p className="h2-style">Clay & Found Things</p>
               <br></br>
@@ -103,17 +94,17 @@ const Page3D = () => {
                 and embroidery string.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="row">
-          <div className="col-sm">
+          {/* <div className="col-sm">
             <div className="p-3">
               <p className="h2-style">Crochet</p>
               <br></br>
               <p className="body-style">Blankets, bags, wall decor!</p>
             </div>
-          </div>
-          <div className="col-sm">
+          </div> */}
+          {/* <div className="col-sm">
             <div className="p-3">
               <p className="h2-style">Sketching</p>
               <br></br>
@@ -121,7 +112,7 @@ const Page3D = () => {
                 Some traditional artwork made with paper and pencil.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

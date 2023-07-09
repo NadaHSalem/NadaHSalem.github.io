@@ -8,9 +8,9 @@
  }
 
  @font-face {
-  font-family: Dosis;
-  src: local("Dosis"),
-   url("./fonts/Dosis-Medium.ttf") format("truetype");
+  font-family: Montserrat;
+  src: local("Montserrat-Regular"),
+   url("./fonts/Montserrat-Regular.ttf") format("truetype");
    font-weight: normal;
    font-size: 20px;
    color: "white";
@@ -20,4 +20,11 @@
   overflow: auto;
   scrollbar-width: none;
   -ms-overflow-style: none;
+}
+
+.background{
+  background: 
+    radial-gradient(rgb(19, 64, 116), rgb(23, 53, 89)), 
+    url("");
+  filter: contrast(170%) brightness(1000%);  
 }
