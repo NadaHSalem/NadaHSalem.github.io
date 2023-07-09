@@ -1,6 +1,4 @@
-import code from "../assets/code.png";
-import download from "../assets/download.png";
-import link from "../assets/link.png";
+import "../App.css";
 
 import html from "../assets/html.png";
 import reactlogo from "../assets/react.png";
@@ -34,7 +32,7 @@ const PageCode = () => {
         right now! I wanted to create a public space where I could showcase both
         my technical skills and some of my art.
       </p>
-      <div className="row">
+      {/* <div className="row">
         <div className="col-8">
           <p className="h2-style">Jayson</p>
         </div>
@@ -52,7 +50,7 @@ const PageCode = () => {
       <p className="body-style">
         Jayson turns a series of prompts and completions into .JSONL files to
         create training sets for Azure OpenAI.
-      </p>
+      </p> */}
       <div className="row">
         <div className="col-8">
           <p className="h2-style">BeRealocated </p>
@@ -73,11 +71,19 @@ const PageCode = () => {
         Firebase API for account creation and data storage, and React packages
         to take photos. The app features an Explore page, allowing users to view
         the 10 latest posts created by other users. View our{" "}
-        <a href="https://devpost.com/software/berealocated" target="blank">
+        <a
+          href="https://devpost.com/software/berealocated"
+          target="blank"
+          className="ext"
+        >
           DevPost
         </a>{" "}
         or{" "}
-        <a href="https://github.com/NadaHSalem/BeRealocated" target="blank">
+        <a
+          href="https://github.com/NadaHSalem/BeRealocated"
+          target="blank"
+          className="ext"
+        >
           GitHub repository!
         </a>
       </p>
@@ -122,6 +128,7 @@ const PageCode = () => {
         <a
           href="https://www.stemfellowship.org/case-study/2020-2021-national-high-school-big-data-challenge/?portfolioCats=151#:~:text=The%20Impact%20of,Haig%20Secondary%20School"
           target="_blank"
+          className="ext"
         >
           here!
         </a>
